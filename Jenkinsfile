@@ -9,9 +9,9 @@ pipeline {
 
       NEXUS_VERSION = "nexus3"
       NEXUS_PROTOCOL = "http"
-      NEXUS_URL = "172.18.0.4:8081"
-      NEXUS_REPOSITORY = "repoJenkinsLy"
-      NEXUS_CREDENTIAL_ID = "nexusCredential"
+      NEXUS_URL = "172.18.0.3:8081"
+      NEXUS_REPOSITORY = "Jenkins-repos-test"
+      NEXUS_CREDENTIAL_ID = "nexus-credentials"
       ARTIFACT_VERSION = "${BUILD_NUMBER}"
   }
   
